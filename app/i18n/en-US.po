@@ -1,0 +1,14 @@
+msgid "tap"
+msgstr "Tap"
+
+msgid "beats"
+msgstr "Beats"
+
+msgid "bpm"
+msgstr "BpM"
+
+msgid "mpm"
+msgstr "MpM"
+
+msgid "measure"
+msgstr "Meas"

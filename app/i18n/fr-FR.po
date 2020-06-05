@@ -1,0 +1,15 @@
+//TODO
+msgid "tap"
+msgstr "Tap"
+
+msgid "beats"
+msgstr "Battements"
+
+msgid "bpm"
+msgstr "BpM"
+
+msgid "mpm"
+msgstr "MpM"
+
+msgid "measure"
+msgstr "Mesure"

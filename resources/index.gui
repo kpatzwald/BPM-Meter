@@ -1,0 +1,23 @@
+<svg>
+      <use id="tapButton" href="#square-button" y="5" height="120" fill="fb-red">
+        <set href="#text" attributeName="text-buffer" to="_tap" />
+      </use>
+      <use id="measureButton" href="#square-button" y="130" height="60" width="50%" fill="fb-red">
+        <set href="#text" attributeName="text-buffer" to="4/4" />
+      </use>
+      <use id="beatsButton" href="#square-button" x="50%" y="130" height="60" width="50%" fill="fb-red">
+        <set href="#text" attributeName="text-buffer" to="_beats" />
+      </use>
+      
+      <text class="infoText" id="txtMpM" x="0%+5" y="200+15">_mpm </text>
+      <text class="infoText" id="txtMpMCount" x="0%+5" y="230+15" text-length="5">0 </text>
+      <text class="infoText" id="txtBpM" x="50%+5" y="200+15">_bpm </text>
+      <text class="infoText" id="txtBpMCount" x="50%+5" y="230+15" text-length="5">0 </text>
+      
+      <!-- BOTTOM RIGHT -->
+      <use id="startResetButton" href="#combo-button-lower-right" fill="fb-peach">
+        <set href="combo-button-icon" attributeName="href" to="reset.png"/>
+        <set href="combo-button-icon-press" attributeName="href" to="reset.png"/>
+        <set href="combo-button-stroke" attributeName="display" to="inline"/>
+      </use>
+</svg>
