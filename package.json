@@ -1,6 +1,6 @@
 {
   "fitbit": {
-    "appUUID": "cd573d14-7031-4c82-a915-a35aef7d4189",
+    "appUUID": "5aa649cc-8591-4c66-83ec-75545e575c9d",
     "appType": "app",
     "appDisplayName": "BPM-Meter",
     "iconFile": "resources/icon.png",
@@ -30,5 +30,11 @@
   },
   "devDependencies": {
     "@fitbit/sdk": "~4.1.0"
+  },
+  "dependencies": {
+    "@fitbit/sdk-cli": "^1.7.3"
+  },
+  "scripts": {
+    "build": "fitbit-build"
   }
 }
